@@ -34,3 +34,11 @@
 - **RG18** - Un évènement a une date de début
 - **RG19** - Un évènement a une date de fin
 - **RG20** - Un évènement a une section de commentaire
+
+### Gestion des commentaires
+
+- **RG10** - Un collaborateur ou un admin peut ajouter un commentaire sur un évènement
+- **RG10** - Un collaborateur ou un admin peut modifier son commentaire
+- **RG10** - Un admin peut supprimer un commentaire
+- **RG10** - Un collaborateur peut supprimer les commentaires de son évènement
+- **RG10** - Un collaborateur ou un admin peut supprimer son commentaire
