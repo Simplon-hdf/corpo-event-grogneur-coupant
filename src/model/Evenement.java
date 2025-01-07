@@ -44,7 +44,7 @@ public class Evenement {
      *
      * @param titre the title to set
      */
-    public void setTitle(String titre) {
+    public void setTitre(String titre) {
         this.titre = titre;
     }
 
