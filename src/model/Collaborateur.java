@@ -1,11 +1,18 @@
 package model;
 
+import java.util.*;
+
 public class Collaborateur {
+	private UUID uuid;
 	private String prenom;
 	private String nom;
 	private String mail;
 	private String motDePasse;
 	private String role;
+	
+	public Collaborateur() {
+		this.uuid = UUID.randomUUID();
+	}
 	
 	/**
 	 * @return the prenom
