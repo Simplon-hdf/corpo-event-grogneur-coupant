@@ -13,7 +13,16 @@ public class Collaborateur {
 	public Collaborateur() {
 		this.uuid = UUID.randomUUID();
 	}
-	
+
+
+	/**
+	 *
+	 * @return l'UUID du collaborateur
+	 */
+	public UUID getUuid() {
+		return uuid;
+	}
+
 	/**
 	 * @return the prenom
 	 */
