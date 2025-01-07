@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Evenement {
     private int id;
-    private String title;
+    private String titre;
     private String descriptif;
     private Date dateDébut;
     private Date dateFin;
@@ -35,17 +35,17 @@ public class Evenement {
      *
      * @return the title of the event
      */
-    public String getTitle() {
-        return title;
+    public String getTitre() {
+        return titre;
     }
 
     /**
      * Sets the title of the event.
      *
-     * @param title the title to set
+     * @param titre the title to set
      */
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitle(String titre) {
+        this.titre = titre;
     }
 
     /**
